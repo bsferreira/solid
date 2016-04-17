@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.github.bsferreira.solid.dip.solution</OriginalElement>
+  <nodes>
+    <node x="9.0" y="0.0">com.github.bsferreira.solid.dip.solution.Vehicle</node>
+    <node x="0.0" y="81.0">com.github.bsferreira.solid.dip.solution.RacingCar</node>
+    <node x="-128.0" y="-2.0">com.github.bsferreira.solid.dip.solution.Driver</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.github.bsferreira.solid.dip.solution.Driver" target="com.github.bsferreira.solid.dip.solution.Vehicle">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.github.bsferreira.solid.dip.solution.RacingCar" target="com.github.bsferreira.solid.dip.solution.Vehicle">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="50.5" y="94.0" />
+  <SelectedNodes>
+    <node>com.github.bsferreira.solid.dip.solution.RacingCar</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

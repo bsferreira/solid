@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.github.bsferreira.solid.lsp.solution</OriginalElement>
+  <nodes>
+    <node x="0.0" y="81.0">com.github.bsferreira.solid.lsp.solution.Car</node>
+    <node x="28.25" y="0.0">com.github.bsferreira.solid.lsp.solution.Vehicle</node>
+    <node x="76.0" y="81.0">com.github.bsferreira.solid.lsp.solution.Plane</node>
+    <node x="-101.0" y="0.0">com.github.bsferreira.solid.lsp.solution.Gear</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.github.bsferreira.solid.lsp.solution.Vehicle" target="com.github.bsferreira.solid.lsp.solution.Gear">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.github.bsferreira.solid.lsp.solution.Plane" target="com.github.bsferreira.solid.lsp.solution.Vehicle">
+      <point x="0.0" y="-15.5" />
+      <point x="111.5" y="56.0" />
+      <point x="90.5" y="56.0" />
+      <point x="20.75" y="15.5" />
+    </edge>
+    <edge source="com.github.bsferreira.solid.lsp.solution.Car" target="com.github.bsferreira.solid.lsp.solution.Vehicle">
+      <point x="0.0" y="-15.5" />
+      <point x="28.0" y="56.0" />
+      <point x="49.0" y="56.0" />
+      <point x="-20.75" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="73.5" y="56.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

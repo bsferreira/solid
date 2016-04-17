@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.github.bsferreira.solid.srp.violation</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">com.github.bsferreira.solid.srp.violation.Vehicle</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="41.5" y="15.5" />
+  <SelectedNodes>
+    <node>com.github.bsferreira.solid.srp.violation.Vehicle</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

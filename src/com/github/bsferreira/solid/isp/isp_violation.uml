@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.github.bsferreira.solid.isp.violation</OriginalElement>
+  <nodes>
+    <node x="33.5" y="0.0">com.github.bsferreira.solid.isp.violation.Switches</node>
+    <node x="96.0" y="162.0">com.github.bsferreira.solid.isp.violation.Car</node>
+    <node x="0.0" y="162.0">com.github.bsferreira.solid.isp.violation.Drone</node>
+    <node x="39.5" y="81.0">com.github.bsferreira.solid.isp.violation.Vehicle</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.github.bsferreira.solid.isp.violation.Vehicle" target="com.github.bsferreira.solid.isp.violation.Switches">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.github.bsferreira.solid.isp.violation.Car" target="com.github.bsferreira.solid.isp.violation.Vehicle">
+      <point x="0.0" y="-15.5" />
+      <point x="124.0" y="137.0" />
+      <point x="101.75" y="137.0" />
+      <point x="20.75" y="15.5" />
+    </edge>
+    <edge source="com.github.bsferreira.solid.isp.violation.Drone" target="com.github.bsferreira.solid.isp.violation.Vehicle">
+      <point x="0.0" y="-15.5" />
+      <point x="38.0" y="137.0" />
+      <point x="60.25" y="137.0" />
+      <point x="-20.75" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="76.0" y="96.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.github.bsferreira.solid.isp.solution</OriginalElement>
+  <nodes>
+    <node x="244.875" y="162.0">com.github.bsferreira.solid.isp.solution.Drone</node>
+    <node x="-35.0" y="0.0">com.github.bsferreira.solid.isp.solution.RadioSwitch</node>
+    <node x="136.0" y="81.0">com.github.bsferreira.solid.isp.solution.Vehicle</node>
+    <node x="44.375" y="162.0">com.github.bsferreira.solid.isp.solution.Car</node>
+    <node x="114.0" y="0.0">com.github.bsferreira.solid.isp.solution.EngineSwitch</node>
+    <node x="270.0" y="-1.0">com.github.bsferreira.solid.isp.solution.CameraSwitch</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.github.bsferreira.solid.isp.solution.Car" target="com.github.bsferreira.solid.isp.solution.RadioSwitch">
+      <point x="-14.0" y="-15.5" />
+      <point x="58.375" y="137.0" />
+      <point x="23.0" y="137.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.github.bsferreira.solid.isp.solution.Drone" target="com.github.bsferreira.solid.isp.solution.Vehicle">
+      <point x="-19.0" y="-15.5" />
+      <point x="263.875" y="137.0" />
+      <point x="198.25" y="137.0" />
+      <point x="20.75" y="15.5" />
+    </edge>
+    <edge source="com.github.bsferreira.solid.isp.solution.Car" target="com.github.bsferreira.solid.isp.solution.Vehicle">
+      <point x="14.0" y="-15.5" />
+      <point x="86.375" y="137.0" />
+      <point x="156.75" y="137.0" />
+      <point x="-20.75" y="15.5" />
+    </edge>
+    <edge source="com.github.bsferreira.solid.isp.solution.Vehicle" target="com.github.bsferreira.solid.isp.solution.EngineSwitch">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.github.bsferreira.solid.isp.solution.Drone" target="com.github.bsferreira.solid.isp.solution.CameraSwitch">
+      <point x="19.0" y="-15.5" />
+      <point x="301.875" y="137.0" />
+      <point x="336.5" y="137.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="186.0" y="96.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

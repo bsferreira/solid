@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.github.bsferreira.solid.srp.solution</OriginalElement>
+  <nodes>
+    <node x="140.0" y="0.0">com.github.bsferreira.solid.srp.solution.Vehicle</node>
+    <node x="0.0" y="0.0">com.github.bsferreira.solid.srp.solution.FuelPump</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="51.0" y="53.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

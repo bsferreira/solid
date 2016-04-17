@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.github.bsferreira.solid.lsp.violation</OriginalElement>
+  <nodes>
+    <node x="-73.0" y="1.0">com.github.bsferreira.solid.lsp.violation.Gear</node>
+    <node x="76.0" y="81.0">com.github.bsferreira.solid.lsp.violation.Plane</node>
+    <node x="0.0" y="81.0">com.github.bsferreira.solid.lsp.violation.Car</node>
+    <node x="28.25" y="0.0">com.github.bsferreira.solid.lsp.violation.Vehicle</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.github.bsferreira.solid.lsp.violation.Plane" target="com.github.bsferreira.solid.lsp.violation.Vehicle">
+      <point x="0.0" y="-15.5" />
+      <point x="111.5" y="56.0" />
+      <point x="90.5" y="56.0" />
+      <point x="20.75" y="15.5" />
+    </edge>
+    <edge source="com.github.bsferreira.solid.lsp.violation.Car" target="com.github.bsferreira.solid.lsp.violation.Vehicle">
+      <point x="0.0" y="-15.5" />
+      <point x="28.0" y="56.0" />
+      <point x="49.0" y="56.0" />
+      <point x="-20.75" y="15.5" />
+    </edge>
+    <edge source="com.github.bsferreira.solid.lsp.violation.Vehicle" target="com.github.bsferreira.solid.lsp.violation.Gear">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="73.5" y="94.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

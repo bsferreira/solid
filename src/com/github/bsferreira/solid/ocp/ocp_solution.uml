@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.github.bsferreira.solid.ocp.solution</OriginalElement>
+  <nodes>
+    <node x="75.5" y="0.0">com.github.bsferreira.solid.ocp.solution.DrivingMode</node>
+    <node x="79.0" y="-89.0">com.github.bsferreira.solid.ocp.solution.EventHandler</node>
+    <node x="201.0" y="81.0">com.github.bsferreira.solid.ocp.solution.Economy</node>
+    <node x="90.0" y="81.0">com.github.bsferreira.solid.ocp.solution.Comfort</node>
+    <node x="275.0" y="-89.0">com.github.bsferreira.solid.ocp.solution.Vehicle</node>
+    <node x="0.0" y="81.0">com.github.bsferreira.solid.ocp.solution.Sport</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.github.bsferreira.solid.ocp.solution.Comfort" target="com.github.bsferreira.solid.ocp.solution.DrivingMode">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.github.bsferreira.solid.ocp.solution.EventHandler" target="com.github.bsferreira.solid.ocp.solution.Vehicle">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.github.bsferreira.solid.ocp.solution.Economy" target="com.github.bsferreira.solid.ocp.solution.DrivingMode">
+      <point x="0.0" y="-15.5" />
+      <point x="249.0" y="56.0" />
+      <point x="175.5" y="56.0" />
+      <point x="40.0" y="15.5" />
+    </edge>
+    <edge source="com.github.bsferreira.solid.ocp.solution.Sport" target="com.github.bsferreira.solid.ocp.solution.DrivingMode">
+      <point x="0.0" y="-15.5" />
+      <point x="35.0" y="56.0" />
+      <point x="95.5" y="56.0" />
+      <point x="-40.0" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="148.5" y="132.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

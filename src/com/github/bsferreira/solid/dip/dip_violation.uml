@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.github.bsferreira.solid.dip.violation</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">com.github.bsferreira.solid.dip.violation.RacingCar</node>
+    <node x="-134.0" y="1.0">com.github.bsferreira.solid.dip.violation.Pilot</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.github.bsferreira.solid.dip.violation.Pilot" target="com.github.bsferreira.solid.dip.violation.RacingCar">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="50.5" y="53.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

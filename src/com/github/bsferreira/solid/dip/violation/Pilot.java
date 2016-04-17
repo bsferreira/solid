@@ -7,8 +7,8 @@ public class Pilot {
 
     private RacingCar vehicle;
 
-    public Pilot(final RacingCar vehicle){
-        this.vehicle = vehicle;
+    public Pilot(){
+        this.vehicle = new RacingCar(100);
     }
 
     public void increaseSpeed(){

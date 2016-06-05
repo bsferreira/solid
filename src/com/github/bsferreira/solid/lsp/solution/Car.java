@@ -7,8 +7,8 @@ public class Car extends Vehicle {
 
     @Override
     public void changeGear(Gear gear) {
-        // can change to any gear except to REVERSE when actual gear  DRIVE
-        setCanChangeGear(!Gear.R.equals(gear) || Gear.D.equals(getGear());
+        // can change to any gear except to REVERSE when actual gear is DRIVE
+        setCanChangeGear(!Gear.R.equals(gear) || Gear.D.equals(getGear()));
         super.changeGear(gear);
     }
 }
